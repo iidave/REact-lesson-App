@@ -5,6 +5,18 @@ html {
 
 }
 
+nav {
+  height: 40px;
+  background-color: rgb(20,20,20);
+  color: gray;
+  padding-top: 5px;
+  padding-left: 20px;
+}
+
+nav a {
+  transform: translateX(20px);
+}
+
 body {
   font-family: 'Montserrat', sans-serif;
  
