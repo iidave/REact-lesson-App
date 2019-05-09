@@ -1,0 +1,92 @@
+html,
+body {
+    margin: 0;
+    background-color: gray;
+}
+
+
+
+body {
+    font-family: 'Open Sans';/* DW Changed font from 'Often'*/
+
+}
+
+h1,h2,h3,h4,h5,h6,
+.h1,.h2,.h3,.h4,.h5,.h6 {
+    font-family: 'Industry-Demi', sans-serif;/* DW Changed font from 'Righteous'*/
+    font-weight: normal;
+    font-style: normal;
+    color: rgb(40 40 40);
+
+}
+
+
+/* #hdr-container {
+    max-width: 100%;
+    Position: relative;
+    height: 40px;
+    background-color:rgb(16, 16, 66);
+}*/
+
+header {
+    height: 1500px;
+}
+#arrow-left {
+    left: 40px;
+    top: 150px;
+    width: 40px;
+    height: 40px;
+    border: 4px 4px 0 0 solid black;
+    z-index: 30px;
+}
+
+#hdr-container {
+    position: relative;
+    margin: auto;
+    width: 800px;
+    height: 1000px;
+    background-color:rgb(240 240 240);
+    box-shadow: 0 10px 20px rgb(40 40 40);
+
+}
+#logo {
+    display: block;
+    Position: absolute;
+    background-color: black;
+    width: 150px;
+    height: 30px;
+    top: 0;
+    left: 30px;
+    padding: 20px 10px 5px 10px;
+    z-index: 10;
+}
+
+div #slider-image {
+    position: absolute;
+    /*height: 150px;
+    width: 300px;*/
+    left: 0px;
+    top: 40px;
+}
+
+img {
+    max-width: 100%;
+    margin: auto;
+    height: auto;
+}
+
+
+.story {
+    max-width: 65%;
+    height:400px;
+    background-color: white;
+    box-shadow: 0 10px 20px rgb(200 200 200);
+    opacity:0.85;
+    padding:10px 20px 0 20px;
+    margin:auto;
+    position: relative;
+    top:400px;
+    z-index:20;
+    overflow:scroll;
+}
+
